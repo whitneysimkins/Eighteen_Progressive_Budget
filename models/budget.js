@@ -1,4 +1,3 @@
-
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
@@ -8,11 +7,11 @@ const transactionSchema = new Schema(
     name: {
       type: String,
       trim: true,
-      required: "Enter a name for transaction"
+      required: "Enter transaction title or type"
     },
     value: {
       type: Number,
-      required: "Enter an amount"
+      required: "Enter transaction amount"
     },
     date: {
       type: Date,
@@ -20,3 +19,7 @@ const transactionSchema = new Schema(
     }
   }
 );
+
+const Transaction = mongoose.model("Transaction", transactionSchema);
+
+module.exports = Transaction;
