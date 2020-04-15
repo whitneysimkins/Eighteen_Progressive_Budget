@@ -1,0 +1,31 @@
+{
+  "name": "eighteen_progressive_budget",
+  "version": "1.0.0",
+  "description": "budget tracking for online and offline",
+  "main": "server.js",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitneybroadfoot/Eighteen_Progressive_Budget.git"
+  },
+  "keywords": [
+    "budget",
+    "finance"
+  ],
+  "author": "whitneybroadfoot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whitneybroadfoot/Eighteen_Progressive_Budget/issues"
+  },
+  "homepage": "https://github.com/whitneybroadfoot/Eighteen_Progressive_Budget#readme"
+}
